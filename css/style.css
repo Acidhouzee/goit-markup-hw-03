@@ -232,6 +232,7 @@ body {
 .benefits .benefits-services li,
 .team .single-team {
     padding: 0 12px;
+    flex-basis: calc((100% - 24px) / 4);
 }
 
 .gallery-content .list .gallery-item:first-child,
@@ -265,6 +266,7 @@ body {
 
 .gallery-content .list .gallery-item {
     padding: 0 12px;
+    flex-basis: calc((100% - 24px) / 3);
 }
 
 .team-info {
@@ -275,7 +277,7 @@ body {
     margin-top: 8px;
 }
 
-.single-team .single-team-content {
+.single-team .single-team {
     background-color: var(--inverse-text-color);
     border-radius: 0px 0px 4px 4px;
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
@@ -336,6 +338,7 @@ body {
 
 .portfolio-gallery .gallery-list .portfolio-item {
     padding: 0 10px 48px;
+    flex-basis: calc((100% - 12px) / 3);
 }
 
 .portfolio-gallery .gallery-list .portfolio-item:nth-child(n + 7) {
